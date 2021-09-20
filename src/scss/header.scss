@@ -1,0 +1,42 @@
+header{
+    font-size: 11px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    
+    .nav-menu{
+        &__link{
+            color: $violet;
+            text-transform: uppercase;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+
+            &.green_link{
+                color: $salad;
+                font-weight: 600;
+
+                img{
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+    .contacts{
+        color: $violet;
+        white-space: nowrap;
+
+        &__phone{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        &__memo{
+            font-size:12px;
+            font-weight: 600;
+        }
+    }
+}
