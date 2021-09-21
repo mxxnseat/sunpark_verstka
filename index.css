@@ -104,6 +104,14 @@ header .contacts__memo {
   background-position: center;
 }
 
+@media screen and (max-width: 768px) {
+  .top-slider {
+    min-height: 40vh;
+  }
+  .top-slider .slide, .top-slider, .top-slider .slide .row {
+    height: 40vh;
+  }
+}
 .brief {
   padding: 24px 0;
   border-bottom: 1px solid #D4D4D4;
@@ -190,10 +198,19 @@ header .contacts__memo {
 .about__slider .arrow {
   position: absolute;
 }
+.about__slider .arrow.left {
+  left: -50px;
+}
 .about__slider .arrow.right {
-  right: 0;
+  right: -50px;
 }
 
+@media screen and (max-width: 768px) {
+  .about__description {
+    background-image: none !important;
+    padding-bottom: 48px;
+  }
+}
 .location {
   background-color: #F6F6F6;
   padding-bottom: 48px;
@@ -321,6 +338,26 @@ header .contacts__memo {
   box-shadow: 0px 2px 6px rgba(227, 196, 22, 0.06), 0px 6px 12px rgba(227, 196, 22, 0.12), 0px 12px 20px rgba(227, 196, 22, 0.18);
 }
 
+@media screen and (max-width: 992px) {
+  .location .foot, .location .car {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .location__select-window {
+    top: initial;
+    bottom: 0;
+    width: 100%;
+    min-height: 300px;
+    left: 0;
+  }
+  .location__select-window .checkbox__count {
+    display: none;
+  }
+  .location__infrastructures {
+    overflow: hidden;
+  }
+}
 .characteristic {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -364,6 +401,11 @@ header .contacts__memo {
   transform: rotate(0deg);
 }
 
+@media screen and (max-width: 768px) {
+  .characteristic__slider {
+    overflow: hidden;
+  }
+}
 .genplan {
   padding-top: 72px;
 }
@@ -438,6 +480,11 @@ header .contacts__memo {
   transform: none;
 }
 
+@media screen and (max-width: 768px) {
+  .steps__slider {
+    overflow: hidden;
+  }
+}
 .news {
   padding-bottom: 72px;
 }
@@ -549,6 +596,15 @@ header .contacts__memo {
   margin-top: 12px;
 }
 
+@media screen and (max-width: 768px) {
+  .bottom-map__contacts {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
 .prefooter {
   padding-top: 48px;
   background-color: #443571;
@@ -818,10 +874,32 @@ header .contacts__memo {
   margin-left: 12px;
 }
 
+@media screen and (max-width: 768px) {
+  .modal-window {
+    padding: 36px;
+  }
+  .modal-window .btn {
+    width: 100%;
+    margin-top: 36px !important;
+  }
+
+  .modal-checkbox {
+    margin-left: 0 !important;
+    font-size: 12px;
+  }
+
+  .custom-select__placeholder {
+    width: 150px;
+  }
+  .custom-select__value {
+    line-height: 12px;
+  }
+}
 body {
   min-height: 100vh;
   font-family: "Jost", sans-serif;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 a {
@@ -890,4 +968,10 @@ input[type=radio] {
 
 .section-btn .btn {
   border: 2px solid #443571;
+}
+
+@media screen and (max-width: 992px) {
+  .arrow {
+    display: none;
+  }
 }

@@ -146,3 +146,32 @@
         }
     }
 }
+@media screen and (max-width: 992px){
+    .location{
+        .foot, .car{
+            font-size: 12px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .location{
+
+        &__select-window{
+            top: initial;
+            bottom: 0;
+            width: 100%;
+            min-height: 300px;
+            left: 0;
+        
+            .checkbox{
+                &__count{
+                    display: none;
+                }
+            }
+        }
+        &__infrastructures{
+            overflow: hidden;
+        }
+       
+    }
+}

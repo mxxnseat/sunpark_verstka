@@ -73,3 +73,12 @@
     }
     
 }
+
+@media screen and (max-width: 768px){
+    .top-slider{
+        min-height: 40vh;
+        .slide, &, .slide .row{
+            height: 40vh;
+        }
+    }
+}

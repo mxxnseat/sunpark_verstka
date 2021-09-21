@@ -44,3 +44,9 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .characteristic__slider{
+        overflow: hidden;
+    }
+}

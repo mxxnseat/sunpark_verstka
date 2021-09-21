@@ -17,10 +17,10 @@
     <header>
         <div class="container">
             <div class="row align-items-end">
-                <div class="logo col-2">
+                <div class="logo col-md-2 col-6">
                     <img src="./assets/img/logo.png" alt="logotype" />
                 </div>
-                <div class="nav-menu align-self-center align-items-end row px-0 col-8">
+                <div class="nav-menu d-md-flex d-none align-self-center align-items-end row px-0 col-8">
                     <a href="#" class="nav-menu__link col">О проекте</a>
                     <a href="#" class="nav-menu__link col">ПОДБОР КВАРТИРЫ</a>
                     <a href="#" class="nav-menu__link col">РАСПОЛОЖЕНИЕ</a>
@@ -37,7 +37,7 @@
                         Коммерческая<br />недвижимость
                     </a>
                 </div>
-                <a href="#" class="contacts col-2">
+                <a href="#" class="contacts col-md-2 col-6">
                     <div class="row px-0">
                         <div class="col-8">
                             <div class="contacts__phone">
@@ -67,7 +67,7 @@
                     <div class="arrow left"></div>
 
 
-                    <div class="slide__header col-6">
+                    <div class="slide__header col-md-6 col-12">
                         Всегда<br />на солнечной стороне!
                     </div>
 
@@ -90,19 +90,19 @@
     <section class="brief">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-md-5 col-12 d-md-block d-flex flex-column-reverse">
                     <div class="brief__name">ЖК «Солнечный Парк»</div>
 
                     <div class="brief__memo">Жилой квартал</div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-md-2 col-12 d-md-block d-flex flex-column-reverse">
                     <div class="brief__name">от 3,07 млн ₽</div>
 
                     <div class="brief__memo">ЦЕНА квартиры</div>
                 </div>
 
-                <div class="col-2">
+                <div class="col-md-2 col-12 d-md-block d-flex flex-column-reverse">
                     <div class="brief__name">
                         1кв.
                         2024
@@ -112,8 +112,8 @@
                     <div class="brief__memo">ПЕРВИЧНая СДАЧа</div>
                 </div>
 
-                <div class="col-3">
-                    <div class="brief__name row gap-2">
+                <div class="col-md-3 col-12 d-md-block d-flex flex-column-reverse">
+                    <div class="brief__name row w-100 mx-auto gap-2">
                         <div class="col">Ст</div>
                         <div class="col">1к</div>
                         <div class="col">2к</div>
@@ -131,7 +131,7 @@
     <section class="about">
         <div class="container">
             <div class="row">
-                <div class="col-6 about__description">
+                <div class="col-md-6 col-12 about__description">
                     <div class="memo">О ПРОЕКТЕ</div>
                     <div class="section-header">Живи на солнечной стороне!</div>
                     <div class="description">
@@ -143,7 +143,7 @@
                         все это и многое другое означает Жить на солнечной стороне!
                     </div>
                 </div>
-                <div class="col-6 about__features">
+                <div class="col-md-6 col-12 about__features">
                     <div class="d-flex flex-wrap">
                         <div class="col-6 d-flex">
                             <div class="about__features__ico">
@@ -244,10 +244,10 @@
                 Расположение и инфраструктура
             </div>
 
-            <div class="row location__infrastructures">
+            <div class="row location__infrastructures flex-md-wrap flex-nowrap">
                 <div class="arrow left disabled"></div>
 
-                <div class="location__infrastructure col-3">
+                <div class="location__infrastructure col-6 col-md-3">
                     <img src="./assets/img/infrastructure-shop.png" alt="infrastructure">
 
                     <div class="location__infrastructure__title">Продукты</div>
@@ -257,7 +257,7 @@
                     </div>
                 </div>
 
-                <div class="location__infrastructure col-3">
+                <div class="location__infrastructure col-6 col-md-3">
                     <img src="./assets/img/infrastructure-shop.png" alt="infrastructure">
 
                     <div class="location__infrastructure__title">Продукты</div>
@@ -266,7 +266,7 @@
                         <div class="car">7 минут</div>
                     </div>
                 </div>
-                <div class="location__infrastructure col-3">
+                <div class="location__infrastructure col-6 col-md-3">
                     <img src="./assets/img/infrastructure-shop.png" alt="infrastructure">
 
                     <div class="location__infrastructure__title">Продукты</div>
@@ -275,7 +275,7 @@
                         <div class="car">7 минут</div>
                     </div>
                 </div>
-                <div class="location__infrastructure col-3">
+                <div class="location__infrastructure col-6 col-md-3">
                     <img src="./assets/img/infrastructure-shop.png" alt="infrastructure">
 
                     <div class="location__infrastructure__title">Продукты</div>
@@ -306,11 +306,11 @@
             </div>
 
             <div id="map">
-                <div class="location__select-window d-flex flex-column">
-                    <div class="location__select__memo">инфраструктура</div>
+                <div class="location__select-window d-flex flex-wrap">
+                    <div class="location__select__memo d-md-block d-none">инфраструктура</div>
                     <div class="section-header">ЖК «Солнечный Парк»</div>
 
-                    <label class="checkbox d-flex align-items-center">
+                    <label class="checkbox col-md-12 col-6 d-flex align-items-center">
                         <input type="checkbox" />
                         <span></span>
                         <span class="checkbox__value">Все объекты</span>
@@ -330,7 +330,7 @@
                         </div>
 
                     </label>
-                    <label class="checkbox d-flex align-items-center">
+                    <label class="checkbox col-md-12 col-6 d-flex align-items-center">
                         <input type="checkbox" />
                         <span></span>
                         <span class="checkbox__value">Все объекты</span>
@@ -340,7 +340,7 @@
                         </div>
 
                     </label>
-                    <label class="checkbox d-flex align-items-center">
+                    <label class="checkbox col-md-12 col-6 d-flex align-items-center">
                         <input type="checkbox" />
                         <span></span>
                         <span class="checkbox__value">Все объекты</span>
@@ -362,53 +362,53 @@
     <section class="characteristic">
         <div class="container">
             <div class="row align-items-center mb-5">
-                <div class="col-6 section-header">
+                <div class="col-md-6 col-12 section-header">
                     Характеристики
                 </div>
-                <div class="col-6 section-btn d-flex justify-content-end align-self-center">
+                <div class="col-md-6 col-12 section-btn d-flex justify-content-md-end align-self-center">
                     <button class="btn">Подробнее</button>
                 </div>
             </div>
 
-            <div class="characteristic__slider row">
+            <div class="characteristic__slider row flex-md-wrap flex-nowrap">
                 <div class="arrow left disabled"></div>
 
-                <div class="characteristic__slider__item col-2">
+                <div class="characteristic__slider__item col-md-2 col-6">
                     <img src="./assets/img/characteristic__slider.png" alt="1">
 
                     <div class="characteristic__slider__title">
                         Фасад
                     </div>
                 </div>
-                <div class="characteristic__slider__item col-2">
+                <div class="characteristic__slider__item col-md-2 col-6">
                     <img src="./assets/img/characteristic__slider.png" alt="1">
 
                     <div class="characteristic__slider__title">
                         Фасад
                     </div>
                 </div>
-                <div class="characteristic__slider__item col-2">
+                <div class="characteristic__slider__item col-md-2 col-6">
                     <img src="./assets/img/characteristic__slider.png" alt="1">
 
                     <div class="characteristic__slider__title">
                         Фасад
                     </div>
                 </div>
-                <div class="characteristic__slider__item col-2">
+                <div class="characteristic__slider__item col-md-2 col-6">
                     <img src="./assets/img/characteristic__slider.png" alt="1">
 
                     <div class="characteristic__slider__title">
                         Фасад
                     </div>
                 </div>
-                <div class="characteristic__slider__item col-2">
+                <div class="characteristic__slider__item col-md-2 col-6">
                     <img src="./assets/img/characteristic__slider.png" alt="1">
 
                     <div class="characteristic__slider__title">
                         Фасад
                     </div>
                 </div>
-                <div class="characteristic__slider__item col-2">
+                <div class="characteristic__slider__item col-md-2 col-6">
                     <img src="./assets/img/characteristic__slider.png" alt="1">
 
                     <div class="characteristic__slider__title">
@@ -432,8 +432,8 @@
     </section>
     <div class="genplan__features">
         <div class="container">
-            <div class="row gap-5">
-                <div class="genplan__item col active">
+            <div class="row gap-5 w-100 mx-auto">
+                <div class="genplan__item col-md col-12 active">
                     <img src="./assets/ico/genplan/1.svg" alt="1">
 
                     <div class="genplan__item__text">
@@ -441,7 +441,7 @@
                         <b>от 4,5%</b>
                     </div>
                 </div>
-                <div class="genplan__item col">
+                <div class="genplan__item col-md col-12">
                     <img src="./assets/ico/genplan/2.svg" alt="2">
 
                     <div class="genplan__item__text">
@@ -449,7 +449,7 @@
                         приобретения
                     </div>
                 </div>
-                <div class="genplan__item col">
+                <div class="genplan__item col-md col-12">
                     <img src="./assets/ico/genplan/3.svg" alt="3">
 
                     <div class="genplan__item__text">
@@ -457,7 +457,7 @@
                         квартиру
                     </div>
                 </div>
-                <div class="genplan__item col">
+                <div class="genplan__item col-md col-12">
                     <img src="./assets/ico/genplan/4.svg" alt="4">
 
                     <div class="genplan__item__text">
@@ -465,7 +465,7 @@
                         о застройщике
                     </div>
                 </div>
-                <div class="genplan__item col">
+                <div class="genplan__item col-md col-12">
                     <img src="./assets/ico/genplan/5.svg" alt="5">
 
                     <div class="genplan__item__text">
@@ -484,28 +484,28 @@
                 Расположение и инфраструктура
             </div>
 
-            <div class="row steps__slider">
+            <div class="row steps__slider flex-md-wrap flex-nowrap">
                 <div class="arrow left disabled"></div>
 
-                <div class="step col-3">
+                <div class="step col-md-3 col-6">
                     <img src="./assets/img/infrastructure-shop.png" alt="infrastructure">
 
                     <div class="step__date">Март 2021</div>
                     <div class="step__photo-count">5 фото</div>
                 </div>
-                <div class="step col-3">
+                <div class="step col-md-3 col-6">
                     <img src="./assets/img/infrastructure-shop.png" alt="infrastructure">
 
                     <div class="step__date">Март 2021</div>
                     <div class="step__photo-count">5 фото</div>
                 </div>
-                <div class="step col-3">
+                <div class="step col-md-3 col-6">
                     <img src="./assets/img/infrastructure-shop.png" alt="infrastructure">
 
                     <div class="step__date">Март 2021</div>
                     <div class="step__photo-count">5 фото</div>
                 </div>
-                <div class="step col-3">
+                <div class="step col-md-3 col-6">
                     <img src="./assets/img/infrastructure-shop.png" alt="infrastructure">
 
                     <div class="step__date">Март 2021</div>
@@ -529,8 +529,8 @@
                     <button class="btn">Смотреть все</button>
                 </div>
 
-                <div class="col-12 gap-5 d-flex news__list">
-                    <div class="news__item col">
+                <div class="row gap-5 news__list mx-auto">
+                    <div class="news__item col-md col-12">
                         <div class="news__title">
                             ЖК «Солнечный парк»
                             объявляет о результатах
@@ -542,7 +542,7 @@
                         </div>
                         <div class="news__date">5 августа 2021</div>
                     </div>
-                    <div class="news__item col">
+                    <div class="news__item col-md col-12">
                         <div class="news__title">
                             ЖК «Солнечный парк»
                             объявляет о результатах
@@ -620,11 +620,11 @@
                     <img src="./assets/ico/to-up.svg" alt="to up" />
                     Наверх
                 </div>
-                <div class="prefooter__contact col-4">
+                <div class="prefooter__contact col-md-4 col-10">
                     <div class="phone">+7 978 718 08 08</div>
                     бесплатно по России
                 </div>
-                <div class="col-3 d-flex justify-content-end">
+                <div class="col-md-3 col-12 mt-3 d-flex justify-content-end">
                     <button class="btn prefooter__btn">Обратится к застройщику</button>
 
                 </div>
@@ -633,7 +633,7 @@
             <hr />
 
             <div class="row prefooter__middle">
-                <div class="col-4">
+                <div class="col-md-4 col-12 mb-md-0 mb-5">
                     <div class="builders flat">КВАРТИРЫ</div>
                     <div class="builders builder">Коммерческая недвижимость</div>
                 </div>
@@ -687,12 +687,12 @@
             </div>
 
             <div class="prefooter__bottom row justify-content-between">
-                <div class="search col-3">
+                <div class="search col-md-3 col-12">
                     <img src="./assets/ico/search.svg" id="search-ico" alt="search ico">
                     <input type="text" placeholder="Поиск по сайту" class="w-100" />
                 </div>
 
-                <div class="prefooter__social col-4 d-flex justify-content-between align-items-center">
+                <div class="prefooter__social col-md-4 col-12 mt-4 d-flex justify-content-between align-items-center">
                     Мы в социальных сетях:
                     <a href="">
                         <img src="./assets/ico/social/yt.svg" alt="youtube"/>
@@ -713,11 +713,11 @@
     <footer class="footer">
         <div class="container">
             <div class="row align-items-center">
-                <div class="copyright col-4">
+                <div class="copyright col-md-4 col-12">
                     &copy; Все права защищены. ЖК «Солнечный парк» — ГК «Аркада Крым».
                 </div>
-                <div class="middle-text col-4">Любая информация, представленная на данном сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 Гражданского кодекса РФ. Группа компаний «Аркада Крым» принимает на себя гражданско-правовые обязательства исключительно в результате отдельно и специально совершенных сделок.</div>
-                <div class="who-create d-flex col-4 justify-content-end">
+                <div class="middle-text col-md-4 col-12 my-md-0 my-4">Любая информация, представленная на данном сайте, носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями статьи 437 Гражданского кодекса РФ. Группа компаний «Аркада Крым» принимает на себя гражданско-правовые обязательства исключительно в результате отдельно и специально совершенных сделок.</div>
+                <div class="who-create d-flex col-md-4 col-12 justify-content-end">
                     Сайт создан — <b>студией Studio282</b>
                     <img src="./assets/img/studio-logo.png" alt="studio logo"/>
                 </div>

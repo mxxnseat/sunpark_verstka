@@ -63,9 +63,22 @@
         .arrow{
             position: absolute;
 
+            &.left{
+                left: -50px;
+            }
             &.right{
-                right: 0;
+                right: -50px;
             }
         }
     }
 }  
+
+@media screen and (max-width: 768px){
+    .about{
+        &__description{
+            background-image: none !important;
+            padding-bottom: 48px;
+        }
+        
+    }
+}

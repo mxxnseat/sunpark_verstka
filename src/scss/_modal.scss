@@ -138,3 +138,26 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .modal-window{
+        padding: 36px;
+        
+        .btn{
+            width: 100%;
+            margin-top: 36px !important;
+        }
+    }
+    .modal-checkbox{
+        margin-left: 0 !important;
+        font-size: 12px;
+    }
+    .custom-select{
+        &__placeholder{
+            width: 150px;
+        }
+        &__value{
+            line-height: 12px;
+        }
+    }
+}
